@@ -9,12 +9,13 @@ header {
 }
 
 h1 {
-    color: red;
+    color: rgb(20, 20, 20);
     font-family: fantasy;
 }
 
 h2 {
     font-family: fantasy;
+    margin-top: 20px;
 }
 
 p {
@@ -26,11 +27,40 @@ footer {
 }
 
 .img_padrao {
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     width: 300px;
+    display: inline-block;
+    border: 1px solid #ddd;    
+    border-radius: 5px;
+    padding: 0px;
+    max-width: 100%;
+    height: auto;
 }
 
 .logo {
     width: 30px;
 }
 
+.servicos {
+    width: 80px;
+    float: left;
+    display: flex;
+    margin: auto;
+}
+
+.parceiros {
+    padding: 10px;
+    display: flex;
+    position: relative;
+    float: left;
+    display:         flex;
+    justify-content: center;
+}
+
+#clientes {
+  margin-top: 120px;
+}
+
+#time {
+    margin-top: 120px;
+}
